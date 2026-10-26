@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dkulmb7voxquh"]
+
+[ext_resource type="Script" path="res://scripts/core/MainScene.cs" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/ui/hud.tscn" id="2_hud"]
+
+[node name="MainScene" type="Node2D" unique_id=848182413]
+script = ExtResource("1_main")
+
+[node name="HUD" parent="." instance=ExtResource("2_hud")]

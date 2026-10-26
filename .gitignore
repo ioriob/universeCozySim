@@ -1,3 +1,12 @@
-# Godot 4+ specific ignores
+# Godot 4+
 .godot/
 /android/
+
+# File generati dall'import delle traduzioni (si rigenerano da translations.csv)
+*.translation
+
+# .NET / IDE
+.vs/
+.idea/
+*.user
+mono_crash.*

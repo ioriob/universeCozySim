@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="UniverseCozySim"
-run/main_scene="uid://dkulmb7voxquh"
+run/main_scene="uid://boiq26uq3b7fc"
 config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://assets/icons/icon.svg"
+
+[autoload]
+
+TimeManager="*res://scripts/core/TimeManager.cs"
+StationResources="*res://scripts/core/StationResources.cs"
 
 [display]
 
@@ -26,7 +31,8 @@ project/assembly_name="UniverseCozySim"
 
 [internationalization]
 
-locale/translations=PackedStringArray("res://transaltions.en.translation", "res://transaltions.it.translation")
+locale/translations=PackedStringArray("res://localization/translations.it.translation", "res://localization/translations.en.translation")
+locale/fallback="it"
 
 [physics]
 
