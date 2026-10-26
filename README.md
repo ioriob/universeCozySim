@@ -1,14 +1,14 @@
 # UniverseCozySim
 
 Gestionale "cozy" sulla Luna, in stile Stardew Valley, in Godot 4.7 (C#/.NET 8).
-Visione, lore e piano di sviluppo: [docs/GDD.md](docs/GDD.md).
+Visione, lore e piano di sviluppo: [docs/GDD.md](docs/GDD.md) (English: [docs/GDD.en.md](docs/GDD.en.md)).
 
 ## Struttura
 
 ```
 res://
 ├── assets/             Grafica, audio, font (icons/, images/, sprites/, audio/…)
-├── docs/               Documento di progetto (GDD.md)
+├── docs/               Documento di progetto (GDD.md, GDD.en.md)
 ├── localization/       translations.csv: TUTTI i testi visibili al giocatore (chiavi IT/EN)
 ├── scenes/
 │   ├── intro/          Schermata introduttiva (scena di avvio)

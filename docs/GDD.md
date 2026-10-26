@@ -1,6 +1,6 @@
 # UniverseCozySim — Documento di progetto
 
-> Titolo provvisorio. Versione 0.2 — ottobre 2026.
+> Titolo provvisorio. Versione 0.2 — ottobre 2026. English version: [GDD.en.md](GDD.en.md).
 
 ## 1. In una frase
 
